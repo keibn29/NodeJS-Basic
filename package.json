@@ -1,0 +1,22 @@
+{
+  "name": "0_nodejs-basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keibn29/NodeJS-Basic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keibn29/NodeJS-Basic/issues"
+  },
+  "homepage": "https://github.com/keibn29/NodeJS-Basic#readme",
+  "dependencies": {
+    "express": "4.18.1"
+  }
+}
