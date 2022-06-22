@@ -4,7 +4,8 @@
   "description": "",
   "main": "sever.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec npx babel-node src/sever.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,14 @@
   },
   "homepage": "https://github.com/keibn29/NodeJS-Basic#readme",
   "dependencies": {
-    "express": "4.18.1"
+    "@babel/core": "7.15.5",
+    "@babel/node": "7.15.4",
+    "@babel/preset-env": "7.15.6",
+    "body-parser": "1.19.0",
+    "dotenv": "10.0.0",
+    "ejs": "3.1.8",
+    "express": "4.18.1",
+    "mysql2": "2.3.0",
+    "nodemon": "2.0.12"
   }
 }
