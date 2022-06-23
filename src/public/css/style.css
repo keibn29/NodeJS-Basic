@@ -31,6 +31,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .create-user-container {
     display: flex;
     justify-content: center;
@@ -59,4 +63,12 @@ a {
 .btn-save {
     margin-top: 15px;
     cursor: pointer;
+}
+
+.upload-file-container {
+    padding: 15px;
+}
+
+.upload-file-container label {
+    display: block;
 }
